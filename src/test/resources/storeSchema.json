@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "books": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "price": {
+              "type": "string"
+            },
+            "author": {
+              "type": "string"
+            },
+            "category": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "price",
+            "author",
+            "category"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "price": {
+              "type": "string"
+            },
+            "author": {
+              "type": "string"
+            },
+            "category": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "price",
+            "author",
+            "category"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "books"
+  ]
+}
