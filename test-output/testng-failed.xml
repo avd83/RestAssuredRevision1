@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ParseAndValidateJSONResponse.TestJsonResponse">
+      <class name="RequestAndResponseSpecificationBuilder.ReqSpec">
         <methods>
-          <include name="getValidateResponseByResponseObject"/>
-          <include name="getValidateResponseByJsonPath"/>
-          <include name="getValidateResponseByJsonObject"/>
-          <include name="getValidateResponseBody1"/>
+          <include name="getPoJoResSpec"/>
+          <include name="postPoJoReqSpec"/>
         </methods>
-      </class> <!-- ParseAndValidateJSONResponse.TestJsonResponse -->
+      </class> <!-- RequestAndResponseSpecificationBuilder.ReqSpec -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
